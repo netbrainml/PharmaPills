@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>PillID</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="../static/styles/bootstrap.min.css" >
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="../static/styles/line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="../static/styles/slicknav.css">
+    <!-- Off Canvas Menu -->
+    <link rel="stylesheet" type="text/css" href="../static/styles/menu_sideslide.css">
+    <!-- Color Switcher -->
+    <link rel="stylesheet" type="text/css" href="../static/styles/vegas.min.css">
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="../static/styles/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="../static/styles/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="../static/styles/responsive.css">
+
+  </head>
+  <body>
+    <div class="bg-wraper overlay has-vignette">
+      <div id="example" class="slider opacity-50 vegas-container" style="height: 983px;"></div>
+    </div>
+
+    <!-- Coundown Section Start -->
+    <section class="countdown-timer">
+      <div class="container">
+        <div class="row text-center" style="background-color: black; opacity:65%; ">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="heading-count">
+              <h1>PillID</h1>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="row time-countdown justify-content-center">
+            </div>
+            <h6>Command Center for PillID.</h6>
+            <p>
+            Visualize progress of each robot.
+            </p>
+            <div class="button-group">
+              <a href="/" class="btn btn-common">Home</a>
+              <a href="./camview1" class="btn btn-border">View Camera</a>
+              <a href="./logs1" class="btn btn-border">View Log</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Coundown Section End -->
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="../static/js/jquery-min.js"></script>
+    <script type="text/javascript" src="../static/js/popper.min.js"></script>
+    <script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../static/js/vegas.min.js"></script>
+    <script type="text/javascript" src="../static/js/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="../static/js/classie.js"></script>
+    <script type="text/javascript" src="../static/js/jquery.nav.js"></script>
+    <script type="text/javascript" src="../static/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="../static/js/wow.js"></script>
+    <script type="text/javascript" src="../static/js/jquery.slicknav.js"></script>
+    <script type="text/javascript" src="../static/js/main.js"></script>
+    <script type="text/javascript" src="../static/js/form-validator.min.js"></script>
+    <script type="text/javascript" src="../static/js/contact-form-script.min.js"></script>
+
+    <script type="text/javascript">
+      $("#example").vegas({
+          timer: false,
+          delay: 3000,
+          transitionDuration: 10000,
+          transition: "blur",
+          slides: [
+              { src: "../static/img/bg.jpg" },
+              { src: "../static/img/bg.jpg" },
+              { src: "../static/img/bg.jpg" }
+          ]
+      });
+    </script>
+      
+  </body>
+</html>

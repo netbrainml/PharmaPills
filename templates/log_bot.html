@@ -1,0 +1,21 @@
+<div style = 'width:100%; height:100%;text-align:center'>
+
+<a href="/" style = 'background-color:black;border-radius:5px;color:white;padding:2px;'> Home</a>
+<h1>Log for Bot {{id}}</h1>
+
+<table style="width:100%; text-align:center">
+  <tr>
+    <th>DUI</th>
+    <th>Error</th>
+    <th>T.S.</th>
+  </tr>
+  {%for d,t,p in zip(dui,timestamps, predictions)%} 
+  <tr>
+    <td>{{d}}</td>
+    <td>{{p}}</td>
+    <td>{{t}}</td>
+  </tr>
+  {%endfor%}
+
+</table>
+</div>
