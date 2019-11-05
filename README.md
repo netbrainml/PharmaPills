@@ -6,3 +6,6 @@ PharmaPills include two software packages: PharmaVision and Pill-ID.
     
 ## PillID
     Trained to identify different medications from images. We trained the model so that it can recognize the same drug from different manufacturers. This software can be used to quickly identify drugs accurately even between different manufacturers.
+
+## Developers
+Dom Huh, Joytsana Sangroula, Ji Kuo
